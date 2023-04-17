@@ -106,7 +106,8 @@ export default function App() {
         defaultState={{
           center: [51.369758, 80.180898],
           zoom: 15,
-          controls: []
+          controls: [],
+          type: 'yandex#satellite'
         }}
         style={{ width: "600px", height: "400px" }}
       >
