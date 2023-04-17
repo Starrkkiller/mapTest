@@ -16,8 +16,8 @@
   border-radius: 50%;
   background: conic-gradient(
     from var(--startPercentage),
-    rgba(201, 242, 155, 0.4) 0deg var(--size),
-    rgba(255, 76, 48, 0.5) var(--size) var(--startPercentage)
+    rgba(75, 75, 74, 0.4) 0deg var(--size),
+    rgba(58, 169, 202, 0.5) var(--size) var(--startPercentage)
   );
 }
 
@@ -25,9 +25,9 @@
   border-radius: 50%;
   background: conic-gradient(
     from 90deg,
-    rgba(255, 76, 48, 0.5) 0deg var(--halfPercentage),
-    rgba(201, 242, 155, 0.4) var(--halfPercentage) var(--halfPercentageEnd),
-    rgba(255, 76, 48, 0.5) var(--halfPercentageEnd) 180deg,
+    rgba(58, 169, 202, 0.5) 0deg var(--halfPercentage),
+    rgba(75, 75, 74, 0.4) var(--halfPercentage) var(--halfPercentageEnd),
+    rgba(58, 169, 202, 0.5) var(--halfPercentageEnd) 180deg,
     transparent 180deg 360deg
   );
 }
@@ -36,10 +36,9 @@
   border-radius: 50%;
   background: conic-gradient(
     from 0,
-    rgba(255, 76, 48, 0.5) 0deg var(--quadrantPercentage),
-    rgba(201, 242, 155, 0.4) var(--quadrantPercentage)
-      var(--quadrantPercentageEnd),
-    rgba(255, 76, 48, 0.5) var(--quadrantPercentageEnd) 90deg,
+    rgba(58, 169, 202, 0.5) 0deg var(--quadrantPercentage),
+    rgba(75, 75, 74, 0.4) var(--quadrantPercentage) var(--quadrantPercentageEnd),
+    rgba(58, 169, 202, 0.5) var(--quadrantPercentageEnd) 90deg,
     transparent 90deg 360deg
   );
 }
