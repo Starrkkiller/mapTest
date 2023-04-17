@@ -1,0 +1,45 @@
+:root {
+  --startPercentage: 0deg;
+  --size: 0deg;
+  --halfPercentage: 0deg;
+  --halfPercentageEnd: 0deg;
+  --qudrantPercentage: 0deg;
+  --qudrantPercentageEnd: 0deg;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.pie-chart {
+  border-radius: 50%;
+  background: conic-gradient(
+    from var(--startPercentage),
+    rgba(201, 242, 155, 0.4) 0deg var(--size),
+    rgba(255, 76, 48, 0.5) var(--size) var(--startPercentage)
+  );
+}
+
+.semiCircle {
+  border-radius: 50%;
+  background: conic-gradient(
+    from 90deg,
+    rgba(255, 76, 48, 0.5) 0deg var(--halfPercentage),
+    rgba(201, 242, 155, 0.4) var(--halfPercentage) var(--halfPercentageEnd),
+    rgba(255, 76, 48, 0.5) var(--halfPercentageEnd) 180deg,
+    transparent 180deg 360deg
+  );
+}
+
+.quadrant {
+  border-radius: 50%;
+  background: conic-gradient(
+    from 0,
+    rgba(255, 76, 48, 0.5) 0deg var(--quadrantPercentage),
+    rgba(201, 242, 155, 0.4) var(--quadrantPercentage)
+      var(--quadrantPercentageEnd),
+    rgba(255, 76, 48, 0.5) var(--quadrantPercentageEnd) 90deg,
+    transparent 90deg 360deg
+  );
+}
